@@ -1,0 +1,5 @@
+<?php 
+$key="NewFreshX";
+$redis = new Redis();
+$redis->connect('127.0.0.1',6379);
+?>
